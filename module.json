@@ -1,6 +1,6 @@
 {
   "moduleId": "vpn",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "minProductVersion": 23,
   "displayName": "VPN Rooms",
   "description": "Virtual LAN rooms so games can find each other on a shared network.",
