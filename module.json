@@ -1,15 +1,23 @@
 {
   "moduleId": "vpn",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minProductVersion": 23,
   "displayName": "VPN Rooms",
   "description": "Virtual LAN rooms so games can find each other on a shared network.",
   "engineSlot": null,
   "requires": [],
   "conflicts": [],
-  "provides": ["vpn-rooms"],
-  "uiContributions": [
-    { "slot": "library.toolbar", "id": "vpn.rooms", "order": 50 }
+  "provides": [
+    "vpn-rooms"
   ],
-  "nativeLibs": ["libwinlator_vpn.so"]
+  "uiContributions": [
+    {
+      "slot": "library.toolbar",
+      "id": "vpn.rooms",
+      "order": 50
+    }
+  ],
+  "nativeLibs": [
+    "libwinlator_vpn.so"
+  ]
 }
