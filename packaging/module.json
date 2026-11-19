@@ -11,6 +11,6 @@
   "uiContributions": [
     { "slot": "library.toolbar", "id": "vpn.rooms", "order": 50 }
   ],
-  "dex": ["classes.dex"],
+  "dex": ["runtime.jar"],
   "nativeLibs": ["libwinlator_vpn.so"]
 }
